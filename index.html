@@ -7,21 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
 
 
     <title>online Shope</title>
 </head>
 
-<body class="h-light-font">
+<body>
 
-    <div class="container-fluid header-container">
-        <header class="header-flex">
-            <nav class="nav-flexbox">
+    <!-- HEADER -->
+    <div class="container-fluid header-wrapper sticky-top"">
+        <header class=" container-fluid container-lg mb-2">
+        <nav class="nav-flexbox">
+            <div class="d-flex align-items-center flex-nowrap">
                 <div class="brand-logo">
                     <div class="logo-img">
                         <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"
@@ -37,27 +39,34 @@
                                     d="m135 422c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
                             </g>
                         </svg>
-                        <span class="pl-2 text-white g-bold-font">Chord Flow</span>
+                        <span class="text-white g-bold-font text-nowrap">Chord Flow</span>
                     </div>
                 </div>
-                <a href="#"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
-                <a href="#"><i class="fas fa-compact-disc"></i></i>&nbsp;&nbsp;COLLECTIONS</a>
-                <a href="#"><i class="fas fa-shopping-cart"></i></i>&nbsp;&nbsp;PURCHASE LIST</a>
-                <div class="login-info">
-                    <i class="fas fa-envelope"></i>
-                    <span>Gabriel Silveira</span>
-                    <img src=""
-                    alt="writter" class="rounded-circle">
-                </div>
-            </nav>
+                <a class="nav-hd-link h-bold-font text-nowrap" href="#"><i class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
+                <a class="nav-hd-link h-bold-font text-nowrap" href="#"><i
+                        class="fas fa-compact-disc"></i></i>&nbsp;&nbsp;COLLECTIONS</a>
+                <a class="nav-hd-link h-bold-font text-nowrap" href="#"><i
+                        class="fas fa-shopping-cart"></i></i>&nbsp;&nbsp;PURCHASE LIST</a>
+                <a class="h-bold-font post-ad-option" href="#">POST AN AD</a>
+            </div>
+            <div class="login-info d-none d-md-flex h-bold-font">
+                <a class="nav-user-link" href="#"><i class="fas fa-envelope"></i>
+                    &nbsp;Gabriel Silveira</a>
+                <img class="user-image" src="/img/roundImg.png" alt="user image">
+            </div>
+        </nav>
         </header>
     </div>
 
+    <!-- MAIN STUFFS -->
+    <main>
+        <div class="main-div"></div>
+    </main>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -65,7 +74,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

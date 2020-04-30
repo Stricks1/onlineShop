@@ -49,15 +49,121 @@
   font-family: "Helvetica Neue Bold";
 }
 
+.logo-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .logo-img svg {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
 }
 
 .logo-img path {
   fill: var(--red);
 }
 
-.header-container {
+.nav-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+}
+
+.header-wrapper {
   background-color: var(--dark-gray);
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.brand-logo span {
+  padding-left: 0.5em;
+  font-size: 0.75rem;
+  display: none;
+}
+
+.nav-hd-link {
+  margin: 0 0.5em;
+  color: var(--gray);
+  font-size: 0.6rem;
+}
+
+.nav-hd-link:hover,
+.nav-user-link:hover {
+  text-decoration: none;
+  color: var(--red);
+}
+
+.nav-user-link {
+  font-size: 0.75rem;
+  color: var(--gray);
+}
+
+.main-div {
+  height: 1800px;
+  background-color: aliceblue;
+}
+
+.login-info {
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  margin-left: 10px;
+  border-radius: 500px;
+  border: 1px solid var(--dark-gray);
+}
+
+.post-ad-option {
+  margin-left: 2em;
+  padding: 0.75em 1.5em;
+  font-size: 0.75em;
+  background-color: var(--red);
+  color: white;
+  display: none;
+}
+
+.post-ad-option:hover {
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+
+@media (min-width: 395px) {
+  .brand-logo span {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-wrapper {
+    height: 70px;
+  }
+  
+  .logo-img svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand-logo span {
+    font-size: 1.25rem;
+  }
+
+  .nav-hd-link {
+    margin: 0 0.5em;
+    color: var(--gray);
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 890px) {
+  .post-ad-option {
+    display: inline-block;
+  }
 }
