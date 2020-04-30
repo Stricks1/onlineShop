@@ -48,3 +48,16 @@
 .h-bold-font {
   font-family: "Helvetica Neue Bold";
 }
+
+.logo-img svg {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-img path {
+  fill: var(--red);
+}
+
+.header-container {
+  background-color: var(--dark-gray);
+}
