@@ -62,7 +62,7 @@
     </div>
 
     <!-- MAIN SEARCH -->
-    <main>
+    <main class="mb-4">
         <div class="container-fluid search-div d-flex flex-column justify-content-center align-items-center">
             <div class="mb-5">
                 <div class="text-white g-bold-font text-center text-nowrap shop-name">Chord Flow</div>
@@ -174,9 +174,9 @@
         </section>
 
 
-        <section class="category-section container-fluid my-5 border-top">
+        <section class="category-section container-fluid my-5 border-top border-bottom pb-5">
             <!-- STRING CATEGORY -->
-            <div class="container">
+            <div class="container" id="stringCateg">
                 <div class="category-title border-bottom pb-2">
                     <img class="category-image-title" src="img/string.png">
                     <h1 class="h-medium-font heading-categ-title">String Instruments</h1> <span
@@ -253,7 +253,7 @@
             </div>
 
             <!-- PERCUSSION CATEGORY -->
-            <div class="container">
+            <div class="container" id="percussionCateg">
                 <div class="category-title border-bottom pb-2">
                     <img class="category-image-title" src="img/percussion.png">
                     <h1 class="h-medium-font heading-categ-title">Percussion Instruments</h1> <span
@@ -331,7 +331,7 @@
 
 
             <!-- WIND CATEGORY -->
-            <div class="container">
+            <div class="container" id="windCateg">
                 <div class="category-title border-bottom pb-2">
                     <img class="category-image-title" src="img/wind.jpg">
                     <h1 class="h-medium-font heading-categ-title">Wind Instruments</h1> <span
@@ -408,11 +408,12 @@
             </div>
 
             <!-- ACCESORIES CATEGORY -->
-            <div class="container">
+            <div class="container" id="accCateg">
                 <div class="category-title border-bottom pb-2">
                     <img class="category-image-title" src="img/amplifier.png">
                     <h1 class="h-medium-font heading-categ-title">Acessories</h1> <span
-                        class="h-light-font categ-title-info">(Amplifiers, Head Phones, Pedalboards, Guitar Picks.)</span>
+                        class="h-light-font categ-title-info">(Amplifiers, Head Phones, Pedalboards, Guitar
+                        Picks.)</span>
                 </div>
                 <div class="items-list">
                     <div class="arrow-left">
@@ -484,8 +485,103 @@
                 </div>
             </div>
         </section>
-
     </main>
+
+    <div class="container-fluid">
+        <footer>
+            <div class="row mb-4">
+                <div class="col-md-3 d-flex flex-column justify-content-center about-footer-first">
+                    <div class="brand-logo-name d-flex justify-content-center">
+                        <div class="logo-img-footer mb-4">
+                            <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"
+                                width="512" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m506.611 165.484c-3.415-2.85-7.918-4.036-12.294-3.242l-220 40c-7.132 1.297-12.317 7.509-12.317 14.758v191.035c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55v-147.481l190-34.545v93.062c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55v-240.001c0-4.448-1.974-8.667-5.389-11.516z" />
+                                    <path
+                                        d="m55 330.001c30.327 0 55-24.673 55-55v-147.482l97.683-17.76c7.132-1.297 12.317-7.509 12.317-14.758v-80c0-4.448-1.974-8.667-5.389-11.516-3.415-2.85-7.918-4.04-12.294-3.242l-110 20c-7.132 1.296-12.317 7.508-12.317 14.758v191.035c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55z" />
+                                    <path
+                                        d="m275 90c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15z" />
+                                    <path
+                                        d="m135 422c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                </g>
+                            </svg>
+                            <span class="g-bold-font text-nowrap">&nbsp;Chord Flow</span>
+                        </div>
+                    </div>
+                    <p class="text-justify g-light-font about-footer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, provident! Amet corrupti
+                        maiores culpa laboriosam aspernatur, alias perspiciatis magnam expedita necessitatibus eligendi
+                        explicabo nemo in cupiditate? Placeat dicta aperiam id!
+                    </p>
+                </div>
+                <div class="col-md-4 footer-wrapper">
+                    <div class="footer-title pb-2">
+                        <h1 class="h-medium-font footer-sec-title">CATEGORIES</h1>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <ul>
+                                <li class="padding-1"><a class="link-categ" href="#stringCateg">String Instruments </a>
+                                </li>
+                                <li class="padding-1"><a class="link-categ" href="#percussionCateg">Percussion
+                                        Instruments </a></li>
+                                <li class="padding-1"><a class="link-categ" href="#windCateg">Wind Instruments </a></li>
+                                <li class="padding-1"><a class="link-categ" href="#accCateg">Acessories </a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="padding-1"><a class="link-categ" href="#stringCateg">String Instruments </a>
+                                </li>
+                                <li class="padding-1"><a class="link-categ" href="#percussionCateg">Percussion
+                                        Instruments </a></li>
+                                <li class="padding-1"><a class="link-categ" href="#windCateg">Wind Instruments </a></li>
+                                <li class="padding-1"><a class="link-categ" href="#accCateg">Acessories </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-wrapper">
+                    <div class="footer-title pb-2">
+                        <h1 class="h-medium-font footer-sec-title">NAVIGATION</h1>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="padding-1"><a class="link-categ" href="#">Home</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Sign in
+                                </a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Sign out</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Terms & Conditions</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">FAQ</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-wrapper">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex flex-column align-items-end">
+                            <div class="my-1 footer-user-selections align-self-end">
+                                <span class="footer-local h-bold-font">&nbsp;COUNTRY</span>
+                                <span class="footer-selected h-medium-font">Switzerland</span>
+                            </div>
+                            <div class="my-1 footer-user-selections align-self-end">
+                                <span class="footer-local h-bold-font">LANGUAGE</span>
+                                <span class="footer-selected h-medium-font">English</span>
+                            </div>
+                            <div class="my-1 footer-user-selections align-self-end">
+                                <span class="footer-local h-bold-font">CURRENCY</span>
+                                <span class="footer-selected h-medium-font">US Dollar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-footer g-light-font d-flex justify-content-center border-top py-4">
+                Copyright &copy; 2020 Chord Flow. All Rights Reserved. Design by Gabriel Silveira.
+            </div>
+        </footer>
+    </div>
 
 
     <!-- Optional JavaScript -->
