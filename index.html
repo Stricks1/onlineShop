@@ -9,10 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
-    
+
 
 
     <title>online Shope</title>
@@ -65,7 +66,8 @@
         <div class="container-fluid search-div d-flex flex-column justify-content-center align-items-center">
             <div class="mb-5">
                 <div class="text-white g-bold-font text-center text-nowrap shop-name">Chord Flow</div>
-                <div class="text-white h-light-font text-center text-nowrap shop-motto">Bringing music to your life</div>
+                <div class="text-white h-light-font text-center text-nowrap shop-motto">Bringing music to your life
+                </div>
             </div>
             <form class="form-search" action="https://google.com">
                 <select id="category" class="select-search">
@@ -75,11 +77,111 @@
                     <option value="Drum">Drum</option>
                     <option value="HeadPhones">Head Phones</option>
                     <option value="Amplifiers">Amplifiers</option>
-                </select><input
-                 class="search-input" type="text" placeholder="What you look for..."><button
-                 class="button-search" type="submit" value="Search">Search</button>
+                </select><input class="search-input" type="text" placeholder="What you look for..."><button
+                    class="button-search" type="submit" value="Search">Search</button>
             </form>
         </div>
+
+        <section class="hot-ads mt-4">
+            <div class="container">
+                <h1 class="h-bold-font section-header">HOT ADS</h1>
+                <div class="gallery js-flickity">
+                    <div class="gallery-cell d-flex">
+                        <img class="hot-ads-img" src="img/stratocaster.jpg">
+                        <div class="hot-ads-description">
+                            <h3 class="hot-ad-name g-bold-font">Stratocaster</h3>
+                            <p class="description-big d-none d-md-block h-light-font">The Fender Stratocaster is a
+                                guitar most used
+                                in live shows and recordings around the
+                                world! Launched in 1954, a Stratocaster presents incredible versatility, you see in the
+                                hands of great idols of different
+                                musical styles.</p>
+                            <div class="brand-cat-info">
+                                <p class="text-nowrap"><span class="h-light-font">Brand: </span><span
+                                        class="g-light-font light-gray">Fender</span></p>
+                                <p class="text-nowrap"><span class="h-light-font">Category: </span><span
+                                        class="g-light-font light-gray">Guitar</span></p>
+                            </div>
+                            <div>
+                                <a class="hot-ads-link-1 h-bold-font" href="#">
+                                    <span>
+                                        400$
+                                    </span>
+                                </a>
+                                <a class="hot-ads-link-2 h-bold-font" href="#">
+                                    <span class="text-nowrap">
+                                        <i class="fas fa-shopping-cart"></i>&nbsp;Purchase details
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell d-flex">
+                        <img class="hot-ads-img" src="img/amplifier.jpg">
+                        <div class="hot-ads-description">
+                            <h3 class="hot-ad-name g-bold-font text-nowrap">Guitar Amplifier</h3>
+                            <p class="description-big d-none d-md-block h-light-font">Powered by batteries, with
+                                separate gain and volume controls, it allows you to go from clean to fully distorted
+                                sound or any other of your preferences.</p>
+                            <div class="brand-cat-info">
+                                <p class="text-nowrap"><span class="h-light-font">Brand: </span><span
+                                        class="g-light-font light-gray">Marshall</span></p>
+                                <p class="text-nowrap"><span class="h-light-font">Category: </span><span
+                                        class="g-light-font light-gray">Amplifier</span></p>
+                            </div>
+                            <div>
+                                <a class="hot-ads-link-1 h-bold-font" href="#">
+                                    <span>
+                                        220$
+                                    </span>
+                                </a>
+                                <a class="hot-ads-link-2 h-bold-font" href="#">
+                                    <span class="text-nowrap">
+                                        <i class="fas fa-shopping-cart"></i>&nbsp;Purchase details
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell d-flex">
+                        <img class="hot-ads-img" src="img/hp-wireless.png">
+                        <div class="hot-ads-description">
+                            <h3 class="hot-ad-name g-bold-font">Wireless Headphone</h3>
+                            <p class="description-big d-none d-md-block h-light-font">The Fender Stratocaster is a
+                                guitar most used
+                                in live shows and recordings around the
+                                world! Launched in 1954, a Stratocaster presents incredible versatility, you see in the
+                                hands of great idols of different
+                                musical styles.</p>
+                            <div class="brand-cat-info">
+                                <p class="text-nowrap"><span class="h-light-font">Brand: </span><span
+                                        class="g-light-font light-gray">Fender</span></p>
+                                <p class="text-nowrap"><span class="h-light-font">Category: </span><span
+                                        class="g-light-font light-gray">Guitar</span></p>
+                            </div>
+                            <div>
+                                <a class="hot-ads-link-1 h-bold-font" href="#">
+                                    <span>
+                                        400$
+                                    </span>
+                                </a>
+                                <a class="hot-ads-link-2 h-bold-font" href="#">
+                                    <span class="text-nowrap">
+                                        <i class="fas fa-shopping-cart"></i>&nbsp;Purchase details
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="category-section mt-5 border-top">
+
+        </section>
+
     </main>
 
 
@@ -94,6 +196,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!-- Flickity -->
+    <script src="js/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
