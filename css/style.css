@@ -148,7 +148,7 @@
 .search-div {
   height: 300px;
   background-color: var(--red);
-  background-image: url("img/bg-logo.png");
+  background-image: url("../img/bg-logo.png");
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: 15% center;
