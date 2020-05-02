@@ -1,0 +1,31 @@
+:root {
+  --red: #d35266;
+  --gray: #888;
+  --dark-gray: #383838;
+}
+
+.bg-color-light {
+  background-color: rgba(136, 136, 136, 0.3);
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid var(--gray);
+}
+
+.border-right-gray {
+  border-right: 1px solid var(--gray);
+}
+
+.font-size-menu {
+  font-size: 0.9em;
+}
+
+.type-width {
+  width: 35%;
+}
+
+@media (min-width: 768px) {
+  .border-right-gray-md {
+    border-right: 1px solid var(--gray);
+  }
+}

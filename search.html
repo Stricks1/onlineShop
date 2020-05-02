@@ -84,48 +84,75 @@
         </div>
 
 
-        <div class="container-fluid">
+        <div class="container-fluid bg-color-light">
             <div class="row">
-                <div class="col-12 col-md-3">
-                    <div>
-                        <input type="checkbox" id="buy" name="buy">
-                        <label for="buy">Buy</label>
-                        <input type="checkbox" id="sell" name="sell">
-                        <label for="sell">Sell</label>
-                    </div>
-                    <div>
-                        <p>Category</p>
-                        <div>
-                            <input type="checkbox" id="stringInstruments" name="stringInstruments">
-                            <label for="stringInstruments">String Instruments</label>
-                            <input type="checkbox" id="percussionInstruments" name="percussionInstruments">
-                            <label for="percussionInstruments">Percussion Instruments</label>
-                            <input type="checkbox" id="windInstruments" name="windInstruments">
-                            <label for="windInstruments">Wind Instruments</label>
-                            <input type="checkbox" id="acessories" name="acessories">
-                            <label for="acessories">Acessories</label>
+                <div class="col-12 col-md-3 border-right-gray-md">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex py-4 justify-content-center">
+                            <div class="mr-5 d-flex align-items-center">
+                                <input type="checkbox" id="buy" name="buy">
+                                <label class="h-light-font font-size-menu" for="buy">&nbsp;Buy</label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="checkbox" id="sell" name="sell">
+                                <label class="h-light-font font-size-menu" for="sell">&nbsp;Sell</label>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <p>Type</p>
                         <div>
-                            <input type="checkbox" id="used" name="used">
-                            <label for="used">Used</label>
-                            <input type="checkbox" id="new" name="new">
-                            <label for="new">New</label>
+                            <p class="border-bottom-gray py-2 my-2">Category</p>
+                            <div class="d-flex flex-column flex-sm-row flex-md-column justify-content-between">
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="stringInstruments" name="stringInstruments">
+                                    <label class="h-light-font font-size-menu"  for="stringInstruments">&nbsp;String Instruments</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="percussionInstruments" name="percussionInstruments">
+                                    <label class="h-light-font font-size-menu text-nowrap"  for="percussionInstruments">&nbsp;Percussion Instruments</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="windInstruments" name="windInstruments">
+                                    <label class="h-light-font font-size-menu"  for="windInstruments">&nbsp;Wind Instruments</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="acessories" name="acessories">
+                                    <label class="h-light-font font-size-menu"  for="acessories">&nbsp;Acessories</label>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <p>Price Range</p>
                         <div>
-                            <input type="checkbox" id="0to10" name="0to10">
-                            <label for="0to10">0$ - 10$</label>
-                            <input type="checkbox" id="10to100" name="10to100">
-                            <label for="10to100">10$ - 100$</label>
-                            <input type="checkbox" id="100to1000" name="100to1000">
-                            <label for="100to1000">100$ - 1000$</label>
-                            <input type="checkbox" id="plus1000" name="plus1000">
-                            <label for="plus1000">+1000$</label>
+                            <p class="border-bottom-gray py-2 my-2">Type</p>
+                            <div class="d-flex flex-column flex-sm-row flex-md-column justify-content-between type-width">
+                                <div class="d-flex align-items-center my-1 mr-5">
+                                    <input type="checkbox" id="used" name="used">
+                                    <label class="h-light-font font-size-menu"  for="used">&nbsp;Used</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="new" name="new">
+                                    <label class="h-light-font font-size-menu"  for="new">&nbsp;New</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="border-bottom-gray py-2 my-2">Price Range</p>
+                            <div class="d-flex flex-column flex-sm-row flex-md-column justify-content-between">
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="0to10" name="0to10">
+                                    <label class="h-light-font font-size-menu"  for="0to10">&nbsp;0$ - 10$</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="10to100" name="10to100">
+                                    <label class="h-light-font font-size-menu"  for="10to100">&nbsp;10$ - 100$</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+
+                                    <input type="checkbox" id="100to1000" name="100to1000">
+                                    <label class="h-light-font font-size-menu"  for="100to1000">&nbsp;100$ - 1000$</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="plus1000" name="plus1000">
+                                    <label class="h-light-font font-size-menu"  for="plus1000">&nbsp;+1000$</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
