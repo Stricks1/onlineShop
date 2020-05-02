@@ -59,15 +59,19 @@
 }
 
 .item-search-unique:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .give-call-button {
-    display: none;
+  display: none;
 }
 
 .item-search-unique:hover .give-call-button {
-    display: inline;
+  display: inline;
+}
+
+.padding-right-md {
+  padding-right: 0;
 }
 
 @media (min-width: 768px) {
@@ -81,5 +85,9 @@
 
   .border-bottom-gray-sm {
     border-bottom: none;
+  }
+  
+  .padding-right-md {
+    padding-right: 15px;
   }
 }
