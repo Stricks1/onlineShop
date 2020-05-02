@@ -45,6 +45,31 @@
   min-width: 360px;
 }
 
+.item-price-buy {
+  border-radius: 2px;
+  color: white;
+  background-color: var(--red);
+  padding: 0.5em;
+}
+
+.item-price-buy:hover {
+  text-decoration: none;
+  color: var(--dark-gray);
+  cursor: pointer;
+}
+
+.item-search-unique:hover {
+    background-color: white;
+}
+
+.give-call-button {
+    display: none;
+}
+
+.item-search-unique:hover .give-call-button {
+    display: inline;
+}
+
 @media (min-width: 768px) {
   .border-right-gray-md {
     border-right: 1px solid var(--gray);

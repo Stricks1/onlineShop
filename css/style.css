@@ -345,6 +345,7 @@
   text-decoration: none;
   color: var(--red);
   background-color: var(--gray);
+  cursor: pointer;
 }
 
 .arrow-left,
