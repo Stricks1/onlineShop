@@ -52,7 +52,8 @@
   padding: 0.5em;
 }
 
-.item-price-buy:hover {
+.item-price-buy:hover,
+.menu-list-active:hover {
   text-decoration: none;
   color: var(--dark-gray);
   cursor: pointer;
@@ -74,6 +75,26 @@
   padding-right: 0;
 }
 
+.menu-list-number {
+  border-radius: 2px;
+  color: var(--gray);
+  padding: 0.25em 0.5em;
+  background-color: white;
+}
+
+.menu-list-number:hover {
+  text-decoration: none;
+  color: var(--red);
+  cursor: pointer;
+}
+
+.menu-list-active {
+  border-radius: 2px;
+  color: white;
+  background-color: var(--red);
+  padding: 0.25em 0.5em;
+}
+
 @media (min-width: 768px) {
   .border-right-gray-md {
     border-right: 1px solid var(--gray);
@@ -86,7 +107,7 @@
   .border-bottom-gray-sm {
     border-bottom: none;
   }
-  
+
   .padding-right-md {
     padding-right: 15px;
   }
