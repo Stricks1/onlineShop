@@ -30,8 +30,8 @@ Worked for the requirements on two different main versions, showing the content 
    - CSS,
    - Bootstrap,
    - Font Awesome,
-   - Flickity,
-   - [Design by Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX)
+   - [Flickity](https://flickity.metafizzy.co/),
+   - [Design inspired by Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Live Demo
 
