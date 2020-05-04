@@ -52,6 +52,13 @@
   padding: 0.5em;
 }
 
+.menu-list-active {
+  border-radius: 2px;
+  color: white;
+  background-color: var(--red);
+  padding: 0.25em 0.5em;
+}
+
 .item-price-buy:hover,
 .menu-list-active:hover {
   text-decoration: none;
@@ -86,13 +93,6 @@
   text-decoration: none;
   color: var(--red);
   cursor: pointer;
-}
-
-.menu-list-active {
-  border-radius: 2px;
-  color: white;
-  background-color: var(--red);
-  padding: 0.25em 0.5em;
 }
 
 @media (min-width: 768px) {
