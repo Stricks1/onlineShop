@@ -455,6 +455,11 @@
   border: solid 1px var(--gray);
 }
 
+.arrow-left:hover,
+.arrow-right:hover {
+  color: var(--red);
+}
+
 /* SEARCH PAGE SEARCH BAR */
 
 .margin-left-search-pg {
