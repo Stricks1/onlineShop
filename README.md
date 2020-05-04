@@ -6,23 +6,23 @@ Worked for the requirements on two different main versions, showing the content 
 
 # Large Screen (Search page/Results page)
 
-![screenshot](./img/shopFull)
+![screenshot](./img/shopFull.png)
 
-![screenshot](./img/SearchFull)
+![screenshot](./img/SearchFull.png)
 
 
 # Medium Screen (Search page/Results page)
 
-![screenshot](./img/shopMd)
+![screenshot](./img/shopMd.png)
 
-![screenshot](./img/searchMd)
+![screenshot](./img/searchMd.png)
 
 
 # Small Screen (Search page/Results page)
 
-![screenshot](./img/shopSm)
+![screenshot](./img/shopSm.png)
 
-![screenshot](./img/searchSm)
+![screenshot](./img/searchSm.png)
 
 ## Built With
 
