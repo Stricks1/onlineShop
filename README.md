@@ -35,7 +35,7 @@ Worked for the requirements on two different main versions, showing the content 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Stricks1/onlineShop/1700362d2718fb9a535e3e9a15cbd67527ba1a08/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Stricks1/onlineShop/0d3e0b7f418cfa651fea0532bad6746c63003284/index.html)
 
 ## Getting Started
 
