@@ -260,6 +260,7 @@
 .hot-ad-name {
   color: var(--red);
   margin-bottom: 1em;
+  font-size: 1.15em;
 }
 
 .description-big {
