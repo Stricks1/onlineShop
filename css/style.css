@@ -312,6 +312,7 @@
   margin: 0 1em;
   white-space: nowrap;
   color: var(--dark-gray);
+  font-size: 1.75em;
 }
 
 .categ-title-info {
