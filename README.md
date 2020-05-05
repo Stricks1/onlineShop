@@ -1,5 +1,4 @@
-# HTML & CSS Capstone Project. 
-# A responsive Web page of a Music Shop 
+# HTML & CSS Capstone Project. A responsive Music Shop Page
 
 In this project, I choose to create a music online shop with a 'main page with search option' and 'results' page.
 I used a lot of knowledge acquired throughout the HTML & CSS section, such as semantic HTML, positioning of content with bootstrap, and flexbox among others. Also for learning purposes and to see if I could use different frameworks used 'Flickity' to build a carousel (just on a minor element to see it working, I didn't want to abuse it because I wanted to show more CSS skills learned through Microverse HTML & CSS section).
