@@ -86,8 +86,12 @@
 }
 
 .logo-img svg {
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.brand-name {
+  display: none;
 }
 
 .logo-img path {
@@ -115,7 +119,7 @@
 .nav-hd-link {
   margin: 0 0.5em;
   color: var(--gray);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .nav-user-link {
@@ -509,11 +513,9 @@
   .selec-search-pg {
     max-width: 575px;
   }
-}
 
-@media (min-width: 395px) {
-  .brand-logo span {
-    display: inline-block;
+  .text-search-title-pg {
+    align-self: center;
   }
 }
 
@@ -528,13 +530,8 @@
   }
 
   .brand-logo span {
+    display: inline-block;
     font-size: 1.25rem;
-  }
-
-  .nav-hd-link {
-    margin: 0 0.5em;
-    color: var(--gray);
-    font-size: 0.75rem;
   }
 
   .hot-ads-link-1 {
