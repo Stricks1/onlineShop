@@ -188,6 +188,7 @@
 
 .form-search {
   height: 50px;
+  width: 70%;
 }
 
 .selec-search-pg {
@@ -220,6 +221,7 @@
   border: none;
   padding: 0.25rem;
   height: 100%;
+  width: 70%;
   margin-right: 0.7em;
 }
 

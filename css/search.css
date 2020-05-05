@@ -95,6 +95,17 @@
   cursor: pointer;
 }
 
+.filters-container {
+  padding-left: 3em;
+}
+
+@media (min-width: 576px) {
+  .filters-container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
+
 @media (min-width: 768px) {
   .border-right-gray-md {
     border-right: 1px solid var(--gray);
@@ -109,6 +120,11 @@
   }
 
   .padding-right-md {
+    padding-right: 15px;
+  }
+
+  .filters-container {
+    padding-left: 3em;
     padding-right: 15px;
   }
 }
