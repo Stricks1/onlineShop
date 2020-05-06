@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
+
+
+    <link rel='shortcut icon' type='image/x-icon' href="img/chordFlow.ico"/>
+    <title>Results Search - Chord Flow</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="container-fluid header-wrapper sticky-top">
+        <header class=" container-fluid container-lg">
+            <nav class="nav-flexbox flex-space-between-custom display-flex-custom flex-center-custom">
+                <div class="d-flex align-items-center flex-nowrap">
+                    <div class="brand-logo display-flex-custom flex-center-custom">
+                        <div class="logo-img display-flex-custom flex-center-custom">
+                            <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m506.611 165.484c-3.415-2.85-7.918-4.036-12.294-3.242l-220 40c-7.132 1.297-12.317 7.509-12.317 14.758v191.035c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55v-147.481l190-34.545v93.062c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55v-240.001c0-4.448-1.974-8.667-5.389-11.516z" />
+                                    <path
+                                        d="m55 330.001c30.327 0 55-24.673 55-55v-147.482l97.683-17.76c7.132-1.297 12.317-7.509 12.317-14.758v-80c0-4.448-1.974-8.667-5.389-11.516-3.415-2.85-7.918-4.04-12.294-3.242l-110 20c-7.132 1.296-12.317 7.508-12.317 14.758v191.035c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55z" />
+                                    <path
+                                        d="m275 90c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15z" />
+                                    <path
+                                        d="m135 422c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                </g>
+                            </svg>
+                            <span class="text-white g-bold-font text-nowrap">Chord Flow</span>
+                        </div>
+                    </div>
+                    <a class="nav-hd-link h-medium-font text-nowrap" href="index.html"><i
+                            class="fas fa-home"></i>&nbsp;&nbsp;HOME</a>
+                    <a class="nav-hd-link h-medium-font text-nowrap" href="#"><i
+                            class="fas fa-compact-disc"></i>&nbsp;&nbsp;COLLECTIONS</a>
+                    <a class="nav-hd-link h-medium-font text-nowrap" href="#"><i
+                            class="fas fa-shopping-cart"></i>&nbsp;&nbsp;PURCHASE LIST</a>
+                    <a class="h-medium-font post-ad-option" href="#">POST AN AD</a>
+                </div>
+                <div class="login-info flex-center-custom display-flex-custom d-none d-md-flex h-medium-font">
+                    <a class="nav-user-link" href="#"><i class="fas fa-envelope"></i>
+                        &nbsp;Gabriel Silveira</a>
+                    <img class="user-image" src="img/roundImg.png" alt="user image">
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- MAIN SEARCH -->
+    <main class="mb-4">
+        <div class="container-fluid search-div d-flex flex-column justify-content-center align-items-start">
+            <div class="mb-4 margin-left-search-pg align-self-start-custom text-search-title-pg">
+                <h1>
+                    <span class="text-white g-bold-font text-left text-nowrap shop-name display-block-custom">Chord Flow</span>
+                    <span class="text-white h-light-font text-left text-nowrap shop-motto display-block-custom">Bringing music to your life
+                    </span>
+                </h1>
+            </div>
+            <form class="margin-left-search-pg form-search d-flex" action="search.html">
+                <select id="category" class="select-search selec-search-pg">
+                    <option value="AllDep">All Categories...</option>
+                    <option value="Strings">String Instruments</option>
+                    <option value="Percussion">Percussion Instruments</option>
+                    <option value="Wind">Wind Instruments</option>
+                    <option value="HeadPhones">Accessories</option>
+                </select><input class="search-input search-input-pg" type="text"
+                    placeholder="What do you look for..."><button class="button-search" type="submit"
+                    value="Search">Search</button>
+            </form>
+        </div>
+
+
+        <div class="container-fluid bg-color-light">
+            <div class="row border-bottom-gray">
+                <div class="col-12 col-md-4 border-right-gray-md pb-4 border-bottom-gray-sm filters-container">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex pt-4 pb-2 justify-content-center">
+                            <div class="mr-5 d-flex align-items-center">
+                                <input type="checkbox" id="buy" name="buy">
+                                <label class="h-light-font font-size-menu color-dark-gray" for="buy">&nbsp;Buy</label>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <input type="checkbox" id="sell" name="sell">
+                                <label class="h-light-font font-size-menu color-dark-gray" for="sell">&nbsp;Sell</label>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="border-bottom-gray py-2 my-2 color-dark-gray h-medium-font">Category</p>
+                            <div class="d-flex flex-column flex-sm-row flex-md-column justify-content-between">
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="stringInstruments" name="stringInstruments">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="stringInstruments">&nbsp;String
+                                        Instruments</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="percussionInstruments" name="percussionInstruments">
+                                    <label class="h-light-font font-size-menu text-nowrap color-dark-gray"
+                                        for="percussionInstruments">&nbsp;Percussion Instruments</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="windInstruments" name="windInstruments">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="windInstruments">&nbsp;Wind
+                                        Instruments</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="acessories" name="acessories">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="acessories">&nbsp;Acessories</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="border-bottom-gray py-2 my-2 color-dark-gray h-medium-font">Type</p>
+                            <div
+                                class="d-flex flex-column flex-sm-row flex-md-column justify-content-between type-width">
+                                <div class="d-flex align-items-center my-1 mr-5">
+                                    <input type="checkbox" id="used" name="used">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="used">&nbsp;Used</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="new" name="new">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="new">&nbsp;New</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="border-bottom-gray py-2 my-2 color-dark-gray h-medium-font">Price Range</p>
+                            <div class="d-flex flex-column flex-sm-row flex-md-column justify-content-between">
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="0to10" name="0to10">
+                                    <label class="h-light-font font-size-menu color-dark-gray" for="0to10">&nbsp;0$ -
+                                        10$</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="10to100" name="10to100">
+                                    <label class="h-light-font font-size-menu color-dark-gray" for="10to100">&nbsp;10$ -
+                                        100$</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+
+                                    <input type="checkbox" id="100to1000" name="100to1000">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="100to1000">&nbsp;100$ -
+                                        1000$</label>
+                                </div>
+                                <div class="d-flex align-items-center my-1">
+                                    <input type="checkbox" id="plus1000" name="plus1000">
+                                    <label class="h-light-font font-size-menu color-dark-gray"
+                                        for="plus1000">&nbsp;+1000$</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-8 pl-0 padding-right-md">
+                    <div class="border-right-gray-md border-bottom-gray-md py-3 pl-3 item-search-wrapper">
+                        <p class="g-light-font color-dark-gray">
+                            <span class="g-bold-font">46</span>
+                            Results for
+                            <span class="g-bold-font">"Electric Guitar"</span>
+                            in Category
+                            <span class="g-bold-font">String Instruments</span>
+                        </p>
+                    </div>
+                    <div>
+                        <div class="border-right-gray-md border-bottom-gray py-3 pl-3 item-search-unique">
+                            <div class="d-flex justify-content-between item-search-wrapper">
+                                <div class="img-search-wrapper">
+                                    <img class="img-search w-100" src="img/strato-1-s.png" alt="stratocaster">
+                                </div>
+                                <div class="d-flex flex-column justify-content-between ml-3 my-2">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="g-bold-font color-dark-gray align-self-center">Squier Bullet
+                                                Single Coil</span>
+                                            <a href="#" class="item-add-buy align-self-center mr-4">+</a>
+                                        </div>
+                                        <p class="g-bold-font color-red">Stratocaster</p>
+                                    </div>
+                                    <p class="color-gray h-light-font my-2 mr-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed harum
+                                        perspiciatis iste voluptatem, exercitationem quod fuga atque inventore illo!
+                                    </p>
+                                    <p class="h-light-font color-dark-gray my-2">
+                                        <span class="h-medium-font color-dark-gray">Brand:</span> Ibanez
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h-light-font color-dark-gray font-size-date align-self-center">01
+                                            April, 2020</span>
+                                        <div class="text-nowrap">
+                                            <a href="#"
+                                                class="item-price-buy align-self-center mr-4 give-call-button">Give a
+                                                Call</a>
+                                            <a href="#" class="item-price-buy align-self-center mr-4">660$</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray-md py-1 pl-3 d-none d-md-block">
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray py-3 pl-3 item-search-unique">
+                            <div class="d-flex justify-content-between item-search-wrapper">
+                                <div class="img-search-wrapper">
+                                    <img class="img-search w-100" src="img/acustic.png" alt="acustic">
+                                </div>
+                                <div class="d-flex flex-column justify-content-between ml-3 my-2">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="g-bold-font color-dark-gray align-self-center">Semi Acoustic
+                                                Guitar</span>
+                                            <a href="#" class="item-add-buy align-self-center mr-4">+</a>
+                                        </div>
+                                        <p class="g-bold-font color-red">TNY HIGHWAY 41</p>
+                                    </div>
+                                    <p class="color-gray h-light-font my-2 mr-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed harum
+                                        perspiciatis iste voluptatem, exercitationem quod fuga atque inventore illo!
+                                    </p>
+                                    <p class="h-light-font color-dark-gray my-2">
+                                        <span class="h-medium-font color-dark-gray">Brand:</span> Seagull
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h-light-font color-dark-gray font-size-date align-self-center">01
+                                            April, 2020</span>
+                                        <div class="text-nowrap">
+                                            <a href="#"
+                                                class="item-price-buy align-self-center mr-4 give-call-button">Give a
+                                                Call</a>
+                                            <a href="#" class="item-price-buy align-self-center mr-4">335$</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray-md py-1 pl-3 d-none d-md-block">
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray py-3 pl-3 item-search-unique">
+                            <div class="d-flex justify-content-between item-search-wrapper">
+                                <div class="img-search-wrapper">
+                                    <img class="img-search w-100" src="img/lesPaul.png" alt="les paul guitar">
+                                </div>
+                                <div class="d-flex flex-column justify-content-between ml-3 my-2">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="g-bold-font color-dark-gray align-self-center">Alpine White
+                                                Mogno</span>
+                                            <a href="#" class="item-add-buy align-self-center mr-4">+</a>
+                                        </div>
+                                        <p class="g-bold-font color-red">Les Paul</p>
+                                    </div>
+                                    <p class="color-gray h-light-font my-2 mr-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed harum
+                                        perspiciatis iste voluptatem, exercitationem quod fuga atque inventore illo!
+                                    </p>
+                                    <p class="h-light-font color-dark-gray my-2">
+                                        <span class="h-medium-font color-dark-gray">Brand:</span> Epiphone
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h-light-font color-dark-gray font-size-date align-self-center">01
+                                            April, 2020</span>
+                                        <div class="text-nowrap">
+                                            <a href="#"
+                                                class="item-price-buy align-self-center mr-4 give-call-button">Give a
+                                                Call</a>
+                                            <a href="#" class="item-price-buy align-self-center mr-4">855$</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray-md py-1 pl-3 d-none d-md-block">
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray py-3 pl-3 item-search-unique">
+                            <div class="d-flex justify-content-between item-search-wrapper">
+                                <div class="img-search-wrapper">
+                                    <img class="img-search w-100" src="img/explorerDean.png" alt="Explorer">
+                                </div>
+                                <div class="d-flex flex-column justify-content-between ml-3 my-2">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="g-bold-font color-dark-gray align-self-center">Flame Charcoal
+                                                Burst</span>
+                                            <a href="#" class="item-add-buy align-self-center mr-4">+</a>
+                                        </div>
+                                        <p class="g-bold-font color-red">Explorer</p>
+                                    </div>
+                                    <p class="color-gray h-light-font my-2 mr-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed harum
+                                        perspiciatis iste voluptatem, exercitationem quod fuga atque inventore illo!
+                                    </p>
+                                    <p class="h-light-font color-dark-gray my-2">
+                                        <span class="h-medium-font color-dark-gray">Brand:</span> Dean
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h-light-font color-dark-gray font-size-date align-self-center">01
+                                            April, 2020</span>
+                                        <div class="text-nowrap">
+                                            <a href="#"
+                                                class="item-price-buy align-self-center mr-4 give-call-button">Give a
+                                                Call</a>
+                                            <a href="#" class="item-price-buy align-self-center mr-4">575$</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray-md py-1 pl-3 d-none d-md-block">
+                        </div>
+                        <div class="border-right-gray-md border-bottom-gray py-3 pl-3 item-search-unique">
+                            <div class="d-flex justify-content-between item-search-wrapper">
+                                <div class="img-search-wrapper">
+                                    <img class="img-search w-100" src="img/sgTg.png" alt="les paul guitar">
+                                </div>
+                                <div class="d-flex flex-column justify-content-between ml-3 my-2">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="g-bold-font color-dark-gray align-self-center">Cherry
+                                                Red</span>
+                                            <a href="#" class="item-add-buy align-self-center mr-4">+</a>
+                                        </div>
+                                        <p class="g-bold-font color-red">SG</p>
+                                    </div>
+                                    <p class="color-gray h-light-font my-2 mr-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed harum
+                                        perspiciatis iste voluptatem, exercitationem quod fuga atque inventore illo!
+                                    </p>
+                                    <p class="h-light-font color-dark-gray my-2">
+                                        <span class="h-medium-font color-dark-gray">Brand:</span> Gibson
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="h-light-font color-dark-gray font-size-date align-self-center">01
+                                            April, 2020</span>
+                                        <div class="text-nowrap">
+                                            <a href="#"
+                                                class="item-price-buy align-self-center mr-4 give-call-button">Give a
+                                                Call</a>
+                                            <a href="#" class="item-price-buy align-self-center mr-4">999$</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-right-gray-md py-4 pl-3 d-flex justify-content-center">
+                            <div class="d-flex">
+                                <a href="#" class="menu-list-number mx-1 h-light-font">1</a>
+                                <a href="#" class="menu-list-active mx-1 h-light-font">2</a>
+                                <a href="#" class="menu-list-number mx-1 h-light-font">3</a>
+                                <a href="#" class="menu-list-number mx-1 h-light-font">4</a>
+                                <span class="align-self-end mx-1 h-light-font">...</span>
+                                <a href="#" class="menu-list-number mx-1 h-light-font">9</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container-fluid">
+        <footer>
+            <div class="row mb-4">
+                <div class="col-md-3 d-flex flex-column justify-content-center about-footer-first">
+                    <div class="brand-logo-name d-flex justify-content-center">
+                        <div class="logo-img-footer mb-4">
+                            <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m506.611 165.484c-3.415-2.85-7.918-4.036-12.294-3.242l-220 40c-7.132 1.297-12.317 7.509-12.317 14.758v191.035c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55v-147.481l190-34.545v93.062c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55v-240.001c0-4.448-1.974-8.667-5.389-11.516z" />
+                                    <path
+                                        d="m55 330.001c30.327 0 55-24.673 55-55v-147.482l97.683-17.76c7.132-1.297 12.317-7.509 12.317-14.758v-80c0-4.448-1.974-8.667-5.389-11.516-3.415-2.85-7.918-4.04-12.294-3.242l-110 20c-7.132 1.296-12.317 7.508-12.317 14.758v191.035c-7.507-3.848-16-6.035-25-6.035-30.327 0-55 24.673-55 55s24.673 55 55 55z" />
+                                    <path
+                                        d="m275 90c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15z" />
+                                    <path
+                                        d="m135 422c-23.551 0-45-21.449-45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 23.551-21.449 45-45 45-8.284 0-15 6.716-15 15s6.716 15 15 15c23.551 0 45 21.449 45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-23.551 21.449-45 45-45 8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                </g>
+                            </svg>
+                            <span class="g-bold-font text-nowrap">&nbsp;Chord Flow</span>
+                        </div>
+                    </div>
+                    <p class="text-justify g-light-font about-footer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, provident! Amet
+                        corrupti
+                        maiores culpa laboriosam aspernatur, alias perspiciatis magnam expedita necessitatibus
+                        eligendi
+                        explicabo nemo in cupiditate? Placeat dicta aperiam id!
+                    </p>
+                </div>
+                <div class="col-md-4 footer-wrapper">
+                    <div class="footer-title pb-2">
+                        <h2 class="h-medium-font footer-sec-title">CATEGORIES</h2>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <ul>
+                                <li class="padding-1"><a class="link-categ" href="#stringCateg">String Instruments
+                                    </a>
+                                </li>
+                                <li class="padding-1"><a class="link-categ" href="#percussionCateg">Percussion
+                                        Instruments </a></li>
+                                <li class="padding-1"><a class="link-categ" href="#windCateg">Wind Instruments </a>
+                                </li>
+                                <li class="padding-1"><a class="link-categ" href="#accCateg">Acessories </a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="padding-1"><a class="link-categ" href="#stringCateg">String Instruments
+                                    </a>
+                                </li>
+                                <li class="padding-1"><a class="link-categ" href="#percussionCateg">Percussion
+                                        Instruments </a></li>
+                                <li class="padding-1"><a class="link-categ" href="#windCateg">Wind Instruments </a>
+                                </li>
+                                <li class="padding-1"><a class="link-categ" href="#accCateg">Acessories </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-wrapper">
+                    <div class="footer-title pb-2">
+                        <h2 class="h-medium-font footer-sec-title">NAVIGATION</h2>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="padding-1"><a class="link-categ" href="index.html">Home</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Sign in
+                                </a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Sign out</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Terms & Conditions</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">FAQ</a></li>
+                            <li class="padding-1"><a class="link-categ" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-wrapper">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex flex-column align-items-end">
+                            <div class="my-1 footer-user-selections align-self-end">
+                                <span class="footer-local h-bold-font">&nbsp;COUNTRY</span>
+                                <span class="footer-selected h-medium-font">Brazil</span>
+                            </div>
+                            <div class="my-1 footer-user-selections align-self-end">
+                                <span class="footer-local h-bold-font">LANGUAGE</span>
+                                <span class="footer-selected h-medium-font">English</span>
+                            </div>
+                            <div class="my-1 footer-user-selections align-self-end">
+                                <span class="footer-local h-bold-font">CURRENCY</span>
+                                <span class="footer-selected h-medium-font">US Dollar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-footer g-light-font d-flex justify-content-center border-top py-4">
+                Copyright &copy; 2020 Chord Flow. All Rights Reserved. Design by Gabriel Silveira.
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Flickity -->
+    <script src="js/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
