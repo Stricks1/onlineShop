@@ -1,14 +1,14 @@
 # HTML & CSS Capstone Project. A responsive Music Shop Page
 
-In this project, I choose to create a music online shop with a 'main page with search option' and 'results' page.
-I used a lot of knowledge acquired throughout the HTML & CSS section, such as semantic HTML, positioning of content with bootstrap, and flexbox among others. Also for learning purposes and to see if I could use different frameworks used 'Flickity' to build a carousel (just on a minor element to see it working, I didn't want to abuse it because I wanted to show more CSS skills learned through Microverse HTML & CSS section).
-Worked for the requirements on two different main versions, showing the content as required, one for fullscreen >= 768px another for < 768px. I saw that I could improve it a little more on smaller screens, so I worked with some adjustments when a screen became less than 576px.
+In this project, I create a music online shop with a 'main page with search option' and 'results' page.
+I used HTML & CSS techniques, such as semantic HTML, positioning of content with bootstrap, and flexbox among others. Also for learning purposes I used a framework - 'Flickity' to build a carousel.
+Worked on two different main versions, showing the content, one for fullscreen >= 768px another for < 768px. I saw that I could improve it a little more on smaller screens, so I worked with some adjustments when a screen became less than 576px.
 
 # Large Screen (Search page/Results page)
 
-[Screenshot Main Page Fullscreen](./img/shopFull.png)
+![Screenshot Main Page Fullscreen](./img/shopFull.png)
 
-[Screenshot Search Page Fullscreen](./img/SearchFull.png)
+![Screenshot Search Page Fullscreen](./img/SearchFull.png)
 
 
 # Medium Screen (Search page/Results page)
@@ -50,6 +50,8 @@ To navigate between the pages you can use the 'Search' button to go for the Resu
 ## Authors
 
 👤 **Author**
+
+Gabriel Malheiros Silveira
 
 - Github: [@Stricks1](https://github.com/Stricks1)
 - E-mail: [Gabriel Silveira](mailto:gmalheiross@gmail.com)
